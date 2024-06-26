@@ -9,7 +9,7 @@ trigger:
 parameters:
   - name: Image
     displayName: 'Testing parameters'
-    default: macOS-latest
+    default: 'macOS-latest'
     type: string
     values:
       - windows-latest
