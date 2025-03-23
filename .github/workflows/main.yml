@@ -5,7 +5,7 @@ on:
     branches: main
 
 jobs:
-  create-file:
+  First workflow:
     runs-on: ubuntu-latest
 
     steps:
