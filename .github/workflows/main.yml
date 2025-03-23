@@ -19,9 +19,4 @@ jobs:
         run: echo "This is a new file created by GitHub Actions." > abc/newfile.txt
 
       - name: Commit and push changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add abc/newfile.txt
-          git commit -m "Add newfile.txt to abc folder"
-          git push
+        run: echo "Created successfully"
